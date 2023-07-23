@@ -1,0 +1,56 @@
+baseurl = "https://gris.dev"
+title = "gris"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+disableComments = true
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "João Marcos Gris"
+  info = "Software Engineer"
+  description = "João Gris Writings on Software Engineering and Tech in General"
+  keywords = "blog,developer,personal"
+  avatarurl = "/images/avatar.jpg"
+  gravatar = "joaomarcosgris@hotmail.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  enableTwemoji = true
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/gris"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/joaogris/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/joaomarcosgris"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "/"
